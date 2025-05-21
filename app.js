@@ -1,8 +1,9 @@
 const express = require('express');
 
 const app = express();
-const port = 8000;
+const port = 5000;
 
 app.listen(port, ()=>{
     console.log(`server is running at port ${port}`);
+    console.log("hello world");
 });
